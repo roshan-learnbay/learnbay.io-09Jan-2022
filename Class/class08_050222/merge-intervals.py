@@ -1,5 +1,5 @@
 def merge(intervals):
-    intervals=sorted(intervals, key=lambda x:x[0])
+    intervals=sorted(intervals, key=lambda x:x[0])      #O(NlogN) for sorting
     n=len(intervals)
     i=0
     j=1
